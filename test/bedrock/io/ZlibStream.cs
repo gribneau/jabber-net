@@ -18,6 +18,7 @@ using NUnit.Framework;
 using bedrock.io;
 using bedrock.util;
 
+#if ZLIB_NET
 namespace test.bedrock.io
 {
     /// <summary>
@@ -71,3 +72,4 @@ namespace test.bedrock.io
         }
     }
 }
+#endif
